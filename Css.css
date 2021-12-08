@@ -1,0 +1,263 @@
+
+body {
+ background-color: #293126;
+ overflow-x: hidden;
+
+  }
+
+  .preloader {
+    margin: 20vh auto 0;
+    font-size: 550px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    animation: animation 30s infinite ease;
+    filter: blur(10px);
+    
+
+  }
+  
+  @keyframes animation {
+    0% {
+      transform: rotate(0deg);
+      box-shadow: 0 -0.83em 0 -0.4em #F34A53, 0 -0.83em 0 -0.42em #f34ace, 0 -0.83em 0 -0.44em #f34aeb, 0 -0.83em 0 -0.46em #F34A53, 0 -0.83em 0 -0.477em #F34A53;
+    }
+    5%,
+    95% {
+      box-shadow: 0 -0.83em 0 -0.4em #b54af3, 0 -0.83em 0 -0.42em #634af3, 0 -0.83em 0 -0.44em #4a8ef3, 0 -0.83em 0 -0.46em #F34A53, 0 -0.83em 0 -0.477em #F34A53;
+    }
+    10%,
+    59% {
+      box-shadow: 0 -0.83em 0 -0.4em #4aa1f3, -0.087em -0.825em 0 -0.42em #4adaf3, -0.173em -0.812em 0 -0.44em #4af3c0, -0.256em -0.789em 0 -0.46em #F34A53, -0.297em -0.775em 0 -0.477em #F34A53;
+    }
+    20% {
+      box-shadow: 0 -0.83em 0 -0.4em #4af390, -0.338em -0.758em 0 -0.42em #4af36f, -0.555em -0.617em 0 -0.44em #4af396, -0.671em -0.488em 0 -0.46em #F34A53, -0.749em -0.34em 0 -0.477em #F34A53;
+    }
+    38% {
+      box-shadow: 0 -0.83em 0 -0.4em #b2f34a, -0.377em -0.74em 0 -0.42em #f3be4a, -0.645em -0.522em 0 -0.44em #f34a4a, -0.775em -0.297em 0 -0.46em #F34A53, -0.82em -0.09em 0 -0.477em #F34A53;
+    }
+    100% {
+      transform: rotate(360deg);
+      box-shadow: 0 -0.83em 0 -0.4em #F34A53, 0 -0.83em 0 -0.42em #F34A53, 0 -0.83em 0 -0.44em #F34A53, 0 -0.83em 0 -0.46em #F34A53, 0 -0.83em 0 -0.477em #F34A53;
+    }
+  }
+
+
+.strglowna
+{
+  position:absolute;
+  height: 1080px;
+  width: 100% ;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: top;
+  
+}
+
+
+
+
+.srodek
+  {
+    
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    text-align: justify;
+    text-shadow: 2px 2px 5px rgb(174, 247, 183);
+    padding-bottom: 10vh;
+    
+  }
+
+  h1{
+    margin-top: -30vh;
+    font-size: 100px;  
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #81b2c0;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(27, 97, 109);
+  }
+
+
+  h2
+  {
+  font-size: 45px;
+
+  }
+  
+
+
+
+.blockA
+{
+margin-top: 140vh;
+height: 1100px;
+width: 100%;
+z-index: 1;
+font-size: large;
+font-family: 'Concert One', cursive;
+}
+
+.blockB
+{
+  margin-top: 21.5%;
+  margin-left: 5%;
+  background-color: #0fa882;
+  opacity: 0.3;
+  height: 500px;
+  width: 1000px;
+}
+
+.blockBPic
+{
+  margin-top: 21.5%;
+  margin-left: 55%;
+  background-color: #634af3;
+  height: 500px;
+  width: 1000px;
+
+
+
+}
+
+.grid-container {
+  margin-left: 5vh;
+  margin-right: 5vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 12vh;
+  padding: 1px;
+  grid-row-gap: 5vh;
+
+}
+.grid-item {
+
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 6vh;
+  font-size: 40px;
+  text-align: center;
+  background-size: cover;
+  
+}
+
+.grid-css
+{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 6vh;
+  font-size: 40px;
+  text-align: center;
+  background-size: cover;
+  background-color: #1894cc;
+}
+
+.grid-pic
+{
+
+padding: 1vh;
+text-align: center;
+border: 1px solid rgba(0, 0, 0, 0.8);
+
+
+
+}
+
+.grid-container2
+{
+  margin-left: 5vh;
+  margin-right: 5vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 3vh;
+  grid-column-gap: 2vh;
+  padding: 1px;
+}
+.grid-pic2
+{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 1vh;
+text-align: center;
+}
+.grid-item2 {
+
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 6vh;
+  font-size: 40px;
+  text-align: center;
+}
+
+.grid-przyklad1
+{
+  background-image: url(przyklad1.png);
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1vh;
+  text-align: center;
+}
+
+.przyklady
+{
+  margin-top: 5vh;
+  background-image: url("background2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+.koncowka
+{
+  margin-top: 5vh;
+
+}
+
+footer 
+{
+   width: 100%;
+   height: 2vh;
+   background-color: #81b2c0;
+   color: black;
+   text-align: center;
+   position: sticky;
+   bottom: 0%;
+   
+}
+
+.reklama
+{
+height: 9vh;  
+width: 29vh;
+}
+
+
+
+
+
+
+
+
+
+
